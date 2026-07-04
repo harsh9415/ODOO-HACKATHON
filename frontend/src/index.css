@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gray-950 text-gray-100 min-h-screen;
+}
+
+.hrms-calendar .rbc-calendar {
+  @apply text-gray-200;
+}
+.hrms-calendar .rbc-month-view {
+  @apply border-gray-800;
+}
+.hrms-calendar .rbc-header {
+  @apply border-gray-800 text-gray-400 py-2;
+}
+.hrms-calendar .rbc-day-bg {
+  @apply border-gray-800;
+}
+.hrms-calendar .rbc-off-range-bg {
+  @apply bg-gray-950;
+}
+.hrms-calendar .rbc-today {
+  @apply bg-purple-900/20;
+}
+.hrms-calendar .rbc-date-cell {
+  @apply text-gray-400 text-xs p-1;
+}
